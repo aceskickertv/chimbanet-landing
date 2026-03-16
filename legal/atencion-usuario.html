@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atención al Usuario - PQRS | CHIMB@NET</title>
+<meta name="description" content="Canales de atención al usuario de CHIMB@NET. Peticiones, Quejas, Recursos y Solicitudes (PQRS).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="legal-base.css">
+<style>
+.channel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+.channel-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 14px;
+  padding: 1.75rem;
+  text-align: center;
+  transition: all 0.3s;
+}
+.channel-card:hover { border-color: rgba(255,212,0,0.3); transform: translateY(-3px); }
+.channel-card .icon { font-size: 2rem; margin-bottom: 0.75rem; display: block; }
+.channel-card h4 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.375rem; }
+.channel-card p { font-size: 0.8rem; color: var(--gray); margin-bottom: 1rem; }
+.channel-card a {
+  display: inline-block;
+  background: rgba(108,59,255,0.15);
+  border: 1px solid rgba(108,59,255,0.3);
+  color: var(--purple-light);
+  padding: 0.4rem 1.25rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.channel-card a:hover { background: var(--purple); color: var(--white); }
+.channel-card.whatsapp { border-color: rgba(37,211,102,0.2); }
+.channel-card.whatsapp a { background: rgba(37,211,102,0.1); border-color: rgba(37,211,102,0.3); color: #25D366; }
+.channel-card.whatsapp a:hover { background: #25D366; color: var(--white); }
+.pqr-type {
+  background: rgba(255,255,255,0.03);
+  border-left: 3px solid var(--purple);
+  border-radius: 0 12px 12px 0;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.pqr-type h4 { font-size: 0.95rem; font-weight: 700; color: var(--yellow); margin-bottom: 0.375rem; }
+.pqr-type p { font-size: 0.875rem; color: var(--gray-light); margin: 0; }
+.timeline { position: relative; padding-left: 2rem; }
+.timeline::before { content: ''; position: absolute; left: 0.5rem; top: 0; bottom: 0; width: 2px; background: rgba(108,59,255,0.3); }
+.timeline-step { position: relative; margin-bottom: 1.5rem; }
+.timeline-step::before { content: ''; position: absolute; left: -1.625rem; top: 0.3rem; width: 10px; height: 10px; background: var(--purple); border-radius: 50%; }
+.timeline-step h4 { font-size: 0.9rem; font-weight: 700; color: var(--white); margin-bottom: 0.25rem; }
+.timeline-step p { font-size: 0.85rem; color: var(--gray-light); margin: 0; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="../index.html" class="nav-logo">CHIMB<span>@</span>NET</a>
+  <a href="../index.html" class="nav-back">← Volver al inicio</a>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <span class="page-tag">Atención al Usuario</span>
+    <h1>Canales de <span>Atención y PQRS</span></h1>
+    <p style="color: var(--gray-light); font-size: 0.9rem; max-width: 600px;">Estamos disponibles para atender sus peticiones, quejas, recursos y solicitudes. Su satisfacción es nuestra prioridad.</p>
+    <div class="meta">
+      <span>🕐 Soporte técnico 24/7</span>
+      <span>📋 Respuesta en 15 días hábiles</span>
+      <span>🆓 Trámites gratuitos</span>
+    </div>
+  </div>
+</div>
+
+<div class="legal-content">
+
+  <h2>Canales de Atención</h2>
+
+  <div class="channel-grid">
+    <div class="channel-card whatsapp">
+      <span class="icon">💬</span>
+      <h4>WhatsApp Business</h4>
+      <p>El canal más rápido. Respuesta inmediata en horario hábil.</p>
+      <a href="https://wa.me/573000000000?text=Hola%2C+necesito+atención+al+usuario" target="_blank" rel="noopener">Escribir ahora</a>
+    </div>
+    <div class="channel-card">
+      <span class="icon">📧</span>
+      <h4>Correo PQRS</h4>
+      <p>Para peticiones, quejas y recursos formales. Conserva evidencia escrita.</p>
+      <a href="mailto:pqrs@chimbanet.com">pqrs@chimbanet.com</a>
+    </div>
+    <div class="channel-card">
+      <span class="icon">📞</span>
+      <h4>Línea telefónica</h4>
+      <p>Atención humana directa. Sin bots, sin esperas interminables.</p>
+      <a href="tel:+573000000000"><span class="placeholder">[TELÉFONO]</span></a>
+    </div>
+    <div class="channel-card">
+      <span class="icon">🎫</span>
+      <h4>Ticket de soporte</h4>
+      <p>Sistema de tickets con seguimiento. Ideal para fallas técnicas.</p>
+      <a href="mailto:soporte@chimbanet.com">soporte@chimbanet.com</a>
+    </div>
+  </div>
+
+  <div class="info-box">
+    <h4>🕐 Horarios de atención</h4>
+    <p>
+      <strong>Soporte técnico:</strong> 24 horas, 7 días a la semana (WhatsApp y teléfono).<br>
+      <strong>Atención administrativa (PQRS, facturación):</strong> Lunes a viernes 8:00 a.m. – 6:00 p.m. | Sábados 9:00 a.m. – 1:00 p.m.<br>
+      <strong>Correo electrónico:</strong> Respondemos en máximo 4 horas en días hábiles.
+    </p>
+  </div>
+
+  <h2>Tipos de PQRS</h2>
+  <p>Conoce qué tipo de solicitud aplica a tu caso para que podamos atenderte mejor:</p>
+
+  <div class="pqr-type">
+    <h4>📋 Petición</h4>
+    <p>Solicitud de información, documentos, certificaciones o actuaciones relacionadas con el servicio. Ejemplo: solicitar copia de su contrato, historial de pagos, o certificado de servicio.</p>
+  </div>
+  <div class="pqr-type">
+    <h4>😤 Queja</h4>
+    <p>Manifestación de inconformidad por la calidad del servicio, atención recibida, cobros incorrectos o incumplimiento de condiciones pactadas.</p>
+  </div>
+  <div class="pqr-type">
+    <h4>⚖️ Recurso</h4>
+    <p>Impugnación formal de una decisión tomada por CHIMB@NET (recurso de reposición). Se interpone dentro de los 5 días hábiles siguientes a la notificación de la decisión.</p>
+  </div>
+  <div class="pqr-type">
+    <h4>🔧 Solicitud técnica</h4>
+    <p>Reporte de fallas, solicitud de mantenimiento, cambio de equipo, reubicación del servicio, cambio de plan o cancelación del servicio.</p>
+  </div>
+
+  <h2>¿Cómo Radicar una PQRS?</h2>
+
+  <div class="timeline">
+    <div class="timeline-step">
+      <h4>1. Identifique su solicitud</h4>
+      <p>Determine si es una petición, queja, recurso o solicitud técnica según las definiciones anteriores.</p>
+    </div>
+    <div class="timeline-step">
+      <h4>2. Reúna la información necesaria</h4>
+      <p>Nombre completo, número de documento, dirección del servicio, descripción detallada del caso y documentos de soporte si aplica.</p>
+    </div>
+    <div class="timeline-step">
+      <h4>3. Envíe por el canal de su preferencia</h4>
+      <p>WhatsApp, correo electrónico a <a href="mailto:pqrs@chimbanet.com">pqrs@chimbanet.com</a>, o teléfono. Para PQRs formales se recomienda el correo electrónico como evidencia.</p>
+    </div>
+    <div class="timeline-step">
+      <h4>4. Reciba su número de radicado</h4>
+      <p>CHIMB@NET le asignará un número de radicado dentro de las primeras 24 horas hábiles. Consérvelo para hacer seguimiento.</p>
+    </div>
+    <div class="timeline-step">
+      <h4>5. Espere la respuesta</h4>
+      <p>Recibirá respuesta en máximo <strong>15 días hábiles</strong>. Para casos urgentes de soporte técnico, la atención es inmediata.</p>
+    </div>
+    <div class="timeline-step">
+      <h4>6. Si no queda satisfecho</h4>
+      <p>Puede escalar su caso ante la <a href="https://www.crcom.gov.co" target="_blank" rel="noopener">CRC</a> o la <a href="https://www.sic.gov.co" target="_blank" rel="noopener">SIC</a> de forma gratuita.</p>
+    </div>
+  </div>
+
+  <h2>Plazos de Respuesta</h2>
+  <ul>
+    <li><strong>Peticiones de información:</strong> 15 días hábiles.</li>
+    <li><strong>Quejas y reclamos:</strong> 15 días hábiles (prorrogables 8 días con notificación).</li>
+    <li><strong>Recursos de reposición:</strong> 15 días hábiles.</li>
+    <li><strong>Soporte técnico urgente:</strong> Atención inmediata 24/7.</li>
+    <li><strong>Solicitud de cancelación:</strong> Procesada antes del próximo ciclo de facturación.</li>
+    <li><strong>Solicitud de compensación:</strong> Aplicada en la siguiente factura o dentro de 15 días hábiles.</li>
+  </ul>
+
+  <h2>Información para Incluir en su PQRS</h2>
+  <ul>
+    <li>Nombre completo del titular del servicio.</li>
+    <li>Número de identificación (cédula o NIT).</li>
+    <li>Dirección del servicio y municipio.</li>
+    <li>Número de contrato o cuenta de cliente (si lo conoce).</li>
+    <li>Descripción clara y detallada de su solicitud o queja.</li>
+    <li>Fecha y hora en que ocurrió el problema (para fallas técnicas).</li>
+    <li>Documentos de soporte: capturas de pantalla, facturas, comunicaciones previas.</li>
+    <li>Datos de contacto donde desea recibir la respuesta.</li>
+  </ul>
+
+  <div class="info-box yellow">
+    <h4>⚠️ Si CHIMB@NET no responde en el plazo legal</h4>
+    <p>Si no recibe respuesta dentro de los 15 días hábiles establecidos, o si la respuesta no es satisfactoria, puede presentar su queja directamente ante la <a href="https://www.crcom.gov.co" target="_blank" rel="noopener">CRC</a> o la <a href="https://www.sic.gov.co" target="_blank" rel="noopener">SIC</a>. Este trámite es completamente gratuito y no requiere abogado.</p>
+  </div>
+
+  <h2>Entes de Control y Vigilancia</h2>
+  <ul>
+    <li>🏛️ <a href="https://www.crcom.gov.co" target="_blank" rel="noopener">Comisión de Regulación de Comunicaciones (CRC)</a> — Sistema SUNIC para quejas de telecomunicaciones.</li>
+    <li>🏛️ <a href="https://www.sic.gov.co" target="_blank" rel="noopener">Superintendencia de Industria y Comercio (SIC)</a> — Protección al consumidor y datos personales.</li>
+    <li>🏛️ <a href="https://www.mintic.gov.co" target="_blank" rel="noopener">MinTIC</a> — Ministerio de Tecnologías de la Información y las Comunicaciones.</li>
+  </ul>
+
+</div>
+
+<footer>
+  <p>© 2025 CHIMB@NET · NIT: <span class="placeholder">[NIT-PENDIENTE]</span> · Proveedor registrado ante MinTIC</p>
+  <div class="footer-links">
+    <a href="terminos.html">Términos</a>
+    <a href="politica-privacidad.html">Privacidad</a>
+    <a href="habeas-data.html">Habeas Data</a>
+    <a href="derechos-usuario.html">Derechos del Usuario</a>
+    <a href="atencion-usuario.html">Atención al Usuario</a>
+    <a href="informacion-operador.html">Información del Operador</a>
+  </div>
+</footer>
+</body>
+</html>
